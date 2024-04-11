@@ -1,0 +1,31 @@
+Qu'est ce que pipex ???
+
+La commande $> < file1 cmd1 | cmd2 > file2 est une combinaison de plusieurs opérations de redirection et de pipe en bash. Voici ce que fait chaque partie :
+
+		< file1 cmd1 :	Cette partie utilise l’opérateur de redirection d’entrée <.
+				Cela signifie que cmd1 lira son entrée à partir de file1 au lieu de l’entrée standard (généralement le clavier).
+		cmd1 | cmd2 :	Cette partie utilise l’opérateur de pipe |.
+				Cela signifie que la sortie de cmd1 est utilisée comme entrée pour cmd2. 
+				Donc, cmd2 lira son entrée à partir de la sortie de cmd1.
+		cmd2 > file2 :	Cette partie utilise l’opérateur de redirection de sortie >.
+				Cela signifie que cmd2 écrira sa sortie dans file2 au lieu de la sortie standard (généralement le terminal).
+
+Donc, en résumé, cette commande exécute cmd1 avec file1 comme entrée, puis passe la sortie de cmd1 à cmd2 comme entrée, 
+et enregistre finalement la sortie de cmd2 dans file2. C’est une façon très puissante de chaîner les commandes ensemble en bash.
+
+
+EXEMPLE :
+
+$> < file1.txt sort | uniq > file2.txt
+
+Voici ce que fait chaque partie de cette commande :
+
+		< file1.txt sort :	sort est une commande qui trie les lignes de son entrée. 
+					Ici, elle lira son entrée à partir de file1.txt grâce à l’opérateur de redirection d’entrée <.
+		sort | uniq : 		uniq est une commande qui supprime les lignes en double de son entrée.
+					Ici, elle lira son entrée à partir de la sortie de sort grâce à l’opérateur de pipe |.
+		uniq > file2.txt : 	Ici, uniq écrira sa sortie dans file2.txt grâce à l’opérateur de redirection de sortie >.
+
+
+Donc, en résumé, cette commande lit les mots de file1.txt,
+les trie par ordre alphabétique, supprime les doublons, et enregistre le résultat dans file2.txt.
