@@ -1,10 +1,10 @@
 # Nom de l'executable
-NAME = PIPEX
+NAME = ????
 
 # Fichiers source
 SRCS =	main.c
 
-UTILS =	srcs/uttils/pipex_utils/??????????????
+UTILS =	????
 
 OTHER = srcs/utils/ft_printf/ft_printf00.c\
 	srcs/utils/ft_printf/ft_printf01.c\

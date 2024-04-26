@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
+/*   By: acabarba <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:51:02 by acabarba          #+#    #+#             */
-/*   Updated: 2024/04/26 23:35:16 by acabarba         ###   ########.fr       */
+/*   Updated: 2023/10/30 13:52:53 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-# include "pipex.h"
+# include "include.h"
 
 /*				VERIF					*/
 int		ft_isalpha(int c);

@@ -1,6 +1,6 @@
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
-# include "pipex.h"
+# include "include.h"
 
 // ft_printf
 int	ft_printf(const char *str, ...);

@@ -1,4 +1,4 @@
-#include "include/pipex.h"
+#include "include/include.h"
 
 int	main(void)
 {
