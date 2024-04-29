@@ -18,7 +18,11 @@ int	main(int ac, char **av);
 void	errorcall(void (*f)());
 void	errorbase(void);
 void	errorargument(void);
+/*			FREE			*/
+void	free_str(char *str);
+void	free_str_tab(char **str);
 
 /*			UTILS			*/
+/*			BONUS			*/
 
 #endif

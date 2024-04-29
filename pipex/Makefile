@@ -6,7 +6,7 @@ NAMEBONUS = pipexb
 SRCS =	main.c\
 	srcs/00_error/error00.c
 
-UTILS =	
+UTILS =	srcs/utils/pipex_utils/path_finder.c
 
 OTHER = srcs/utils/ft_printf/ft_printf00.c\
 	srcs/utils/ft_printf/ft_printf01.c\
