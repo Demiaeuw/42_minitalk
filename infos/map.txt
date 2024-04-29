@@ -29,3 +29,21 @@ Voici ce que fait chaque partie de cette commande :
 
 Donc, en résumé, cette commande lit les mots de file1.txt,
 les trie par ordre alphabétique, supprime les doublons, et enregistre le résultat dans file2.txt.
+
+
+
+
+fait :
+
+
+
+a faire :
+	tester si ce qui est passé en argument est possible / existe.
+
+	verfier si la cmd existe
+
+	executé la cmd
+
+	Trouver une solution pour ce qu'est Pipex ?? gnl ? 
+
+	
