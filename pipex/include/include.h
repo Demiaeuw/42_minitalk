@@ -18,11 +18,14 @@ int	main(int ac, char **av);
 void	errorcall(void (*f)());
 void	errorbase(void);
 void	errorargument(void);
+void	errorexec(void);
+void	errorpathing(char **cmd);
 /*			FREE			*/
 void	free_str(char *str);
 void	free_str_tab(char **str);
 
 /*			UTILS			*/
+char	path_finder(char *cmd, char **envp);
 /*			BONUS			*/
 
 #endif

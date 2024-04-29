@@ -1,0 +1,11 @@
+srcs
+	00_error	
+			error00	-> Fonction de base de retour erreurs.
+			free00	-> Fonction de free de base.
+	utils
+			ft_printf	-> Fonction lié a l'utilisation de ft_printf.
+			gnl		-> Fonction lié a l'utilisation de get_next_line.
+			libft		-> Fonction lié a l'utilisation de la libft.
+			pipex_utils	
+					execute_cmd	-> Fonction pour créer et utiliser une commande en fonction des paths.
+					path_finder	-> Cherche les path, créer les cmd avec path, check si existe et retourn le tout.

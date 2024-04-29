@@ -4,6 +4,7 @@
 		"libft.h": "c",
 		"pipex.h": "c",
 		"get_next_line.h": "c",
-		"include.h": "c"
+		"include.h": "c",
+		"fcntl.h": "c"
 	}
 }
