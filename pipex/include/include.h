@@ -20,12 +20,8 @@ int	main(int ac, char **av);
 
 /*			ERROR			*/
 void	errorcall(void (*f)());
-void	erroropen(void);
-void	errorread(void);
-void	errorclose(void);
-
+void	errorbase(void);
 /*			OPEN			*/
-void	read_file(char *filename);
 
 /*			UTILS			*/
 
