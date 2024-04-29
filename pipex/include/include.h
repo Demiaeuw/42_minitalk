@@ -12,16 +12,12 @@
 # include "get_next_line.h"
 # include "libft.h"
 
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 1024
-# endif
-
 int	main(int ac, char **av);
 
 /*			ERROR			*/
 void	errorcall(void (*f)());
 void	errorbase(void);
-/*			OPEN			*/
+void	errorargument(void);
 
 /*			UTILS			*/
 

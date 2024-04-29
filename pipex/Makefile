@@ -58,7 +58,7 @@ OTHER = srcs/utils/ft_printf/ft_printf00.c\
 	srcs/utils/libft/ft_tolower.c\
 	srcs/utils/libft/ft_toupper.c
 
-SRCSBONUS =	
+SRCSBONUS =	main_bonus.c
 
 OTHERBONUS =	srcs/utils/ft_printf/ft_printf00.c\
 		srcs/utils/ft_printf/ft_printf01.c\
