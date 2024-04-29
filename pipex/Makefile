@@ -1,10 +1,12 @@
 # Nom de l'executable
-NAME = ????
+NAME = pipex
 
 # Fichiers source
-SRCS =	main.c
+SRCS =	main.c\
+	srcs/00_error/error00.c\
+	srcs/01_open/open00.c
 
-UTILS =	????
+UTILS =	
 
 OTHER = srcs/utils/ft_printf/ft_printf00.c\
 	srcs/utils/ft_printf/ft_printf01.c\
@@ -99,7 +101,21 @@ printhader:
 	@sleep 0.1
 	@echo "                                                   "
 	@sleep 0.1
-	???????????????????????????????????????? ASCII ART ????????????????????????????????????????
+	@echo "  _____ _                 "
+	@sleep 0.1
+	@echo " |  __ (_)                "
+	@sleep 0.1
+	@echo " | |__) | _ __   _____  __"
+	@sleep 0.1
+	@echo " |  ___/ | |_ \ / _ \ \/ /"
+	@sleep 0.1
+	@echo " | |   | | |_) |  __/>  < "
+	@sleep 0.1
+	@echo " |_|   |_| |__/ \\___/_/\\_\\"
+	@sleep 0.1
+	@echo "         | |              "
+	@sleep 0.1
+	@echo "         |_|              "
 	@sleep 0.1
 	@echo "                                                   "
 	@sleep 0.1
@@ -140,7 +156,7 @@ printend:
 	@sleep 0.1
 	@echo " "
 	@sleep 0.1
-	@echo "   Utilitaire : \033[94m./so_long\033[0m est utilisable."
+	@echo "   Utilitaire : \033[94m./pipex\033[0m est utilisable."
 	@sleep 0.1
 	@echo " "
 	@sleep 0.1
@@ -171,7 +187,7 @@ printendclean:
 	@sleep 0.1
 	@echo " "
 	@sleep 0.1
-	@echo "   \033[32mMerci d'avoir utilisé\033[0m \033[94m?????????????\033[0m"
+	@echo "   \033[32mMerci d'avoir utilisé\033[0m \033[94mpipex\033[0m"
 	@sleep 0.1
 	@echo " "
 	@sleep 0.1

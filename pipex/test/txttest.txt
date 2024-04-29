@@ -1,0 +1,5 @@
+Test du fichier test.
+Ceci est le test pour un fichier text. Il contient plusieurs char avec des retours a la ligne
+pour tester si tout fontionne 
+correctement.
+Voila ici c'est la fin du document.
