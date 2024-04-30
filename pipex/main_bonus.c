@@ -6,7 +6,7 @@
 /*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/29 16:44:26 by acabarba          #+#    #+#             */
-/*   Updated: 2024/04/29 17:08:39 by acabarba         ###   ########.fr       */
+/*   Updated: 2024/04/30 20:04:18 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,4 @@ int	main(int ac, char **av)
 	(void)av;
 	ft_printf("HelloWorld\n");
 	return (0);
-}
+} 

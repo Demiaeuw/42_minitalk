@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   include.h                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/04/30 20:04:53 by acabarba          #+#    #+#             */
+/*   Updated: 2024/04/30 23:10:38 by acabarba         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef INCLUDE_H
 # define INCLUDE_H
 # include <unistd.h>
@@ -12,7 +24,7 @@
 # include "get_next_line.h"
 # include "libft.h"
 
-int	main(int ac, char **av);
+int	main(int ac, char **av, char **envp);
 
 /*			ERROR			*/
 void	errorcall(void (*f)());
