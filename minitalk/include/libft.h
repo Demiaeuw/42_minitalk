@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
+/*   By: acabarba <acabarba@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:51:02 by acabarba          #+#    #+#             */
-/*   Updated: 2024/04/29 18:36:04 by acabarba         ###   ########.fr       */
+/*   Updated: 2024/05/19 15:13:06 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,6 +80,5 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 /*		FREE		*/
 void	free_str(char *str);
 void	free_str_tab(char **str);
-
 
 #endif
