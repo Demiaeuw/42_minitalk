@@ -1,21 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_bonus.c                                       :+:      :+:    :+:   */
+/*   ft_isdigit_str.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/29 16:44:26 by acabarba          #+#    #+#             */
-/*   Updated: 2024/04/30 20:04:18 by acabarba         ###   ########.fr       */
+/*   Created: 2024/04/12 17:08:56 by acabarba          #+#    #+#             */
+/*   Updated: 2024/04/29 13:27:47 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "include/include.h"
+#include "../../../include/libft.h"
 
-int	main(int ac, char **av)
+int	ft_isdigit_str(char **str)
 {
-	(void)ac;
-	(void)av;
-	ft_printf("HelloWorld\n");
-	return (0);
-} 
+	int	i;
+	int	j;
+
+	i = 0;
+	while (str[i])
+	{
+		j = 0;
+		if (str[i][j] == '-')
+			j++;
+		while (str[i][j])
+		{
+			if (!(str[i][j] >= '0' && str[i][j] <= '9'))
+				return (0);
+			j++;
+		}
+		i++;
+	}
+	return (1);
+}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: acabarba <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:51:02 by acabarba          #+#    #+#             */
-/*   Updated: 2023/10/30 13:52:53 by acabarba         ###   ########.fr       */
+/*   Updated: 2024/04/29 18:36:04 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 /*				VERIF					*/
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
-int    	ft_isdigit_str(char **str);
+int		ft_isdigit_str(char **str);
 int		ft_isalnum(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
@@ -76,5 +76,10 @@ void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void*));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
+/*		FREE		*/
+void	free_str(char *str);
+void	free_str_tab(char **str);
+
 
 #endif

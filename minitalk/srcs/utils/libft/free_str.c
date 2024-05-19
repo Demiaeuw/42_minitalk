@@ -1,35 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isdigit_str.c                                   :+:      :+:    :+:   */
+/*   free_str.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acabarba <acabarba@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/12 17:08:56 by acabarba          #+#    #+#             */
-/*   Updated: 2024/04/29 19:29:11 by acabarba         ###   ########.fr       */
+/*   Created: 2024/04/29 18:30:44 by acabarba          #+#    #+#             */
+/*   Updated: 2024/04/29 18:32:43 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../../include/libft.h"
 
-int	ft_isdigit_str(char **str)
+void	free_str(char *str)
 {
-	int	i;
-	int	j;
-
-	i = 0;
-	while (str[i])
-	{
-		j = 0;
-		if (str[i][j] == '-')
-			j++;
-		while (str[i][j])
-		{
-			if (!(str[i][j] >= '0' && str[i][j] <= '9'))
-				return (0);
-			j++;
-		}
-		i++;
-	}
-	return (1);
+	free(str);
+	return ;
 }
