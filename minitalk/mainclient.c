@@ -1,26 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   free_str_tab.c                                     :+:      :+:    :+:   */
+/*   mainclient.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: acabarba <acabarba@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/29 18:34:14 by acabarba          #+#    #+#             */
-/*   Updated: 2024/05/19 14:34:48 by acabarba         ###   ########.fr       */
+/*   Created: 2024/05/19 14:46:20 by acabarba          #+#    #+#             */
+/*   Updated: 2024/05/19 14:46:21 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../../include/libft.h"
+#include "include/include.h"
 
-void	free_str_tab(char **str)
+int	main(void)
 {
-	int	i;
-
-	i = 0;
-	while (str[i])
-	{
-		free_str(str[i]);
-		i++;
-	}
-	free(str);
+	ft_printf("HelloWorld, client\n");
+	return (0);
 }
