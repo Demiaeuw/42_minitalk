@@ -5,6 +5,7 @@
 		"pipex.h": "c",
 		"get_next_line.h": "c",
 		"include.h": "c",
-		"fcntl.h": "c"
+		"fcntl.h": "c",
+		"stdio.h": "c"
 	}
 }

@@ -3,117 +3,117 @@ NAMECLIENT = client
 NAMESERVER = server
 
 # Fichiers source
-SRCSCLIENT =	mainclient.c
+SRCSCLIENT =	srcs/client/client.c
 
-UTILSCLIENT =	
+# UTILSCLIENT =	
 
-OTHERCLIENT = srcs/utils/ft_printf/ft_printf00.c\
-	srcs/utils/ft_printf/ft_printf01.c\
-	srcs/utils/ft_printf/ft_printf02.c\
-	srcs/utils/gnl/get_next_line00.c\
-	srcs/utils/gnl/get_next_line01.c\
-	srcs/utils/libft/free_str_tab.c\
-	srcs/utils/libft/free_str.c\
-	srcs/utils/libft/ft_atoi.c\
-	srcs/utils/libft/ft_bzero.c\
-	srcs/utils/libft/ft_calloc.c\
-	srcs/utils/libft/ft_isalnum.c\
-	srcs/utils/libft/ft_isalpha.c\
-	srcs/utils/libft/ft_isascii.c\
-	srcs/utils/libft/ft_isdigit_str.c\
-	srcs/utils/libft/ft_isdigit.c\
-	srcs/utils/libft/ft_isprint.c\
-	srcs/utils/libft/ft_itoa.c\
-	srcs/utils/libft/ft_lstadd_back.c\
-	srcs/utils/libft/ft_lstadd_front.c\
-	srcs/utils/libft/ft_lstclear.c\
-	srcs/utils/libft/ft_lstdelone.c\
-	srcs/utils/libft/ft_lstiter.c\
-	srcs/utils/libft/ft_lstlast.c\
-	srcs/utils/libft/ft_lstmap.c\
-	srcs/utils/libft/ft_lstnew.c\
-	srcs/utils/libft/ft_lstsize.c\
-	srcs/utils/libft/ft_memchr.c\
-	srcs/utils/libft/ft_memcmp.c\
-	srcs/utils/libft/ft_memcpy.c\
-	srcs/utils/libft/ft_memmove.c\
-	srcs/utils/libft/ft_memset.c\
-	srcs/utils/libft/ft_putchar_fd.c\
-	srcs/utils/libft/ft_putendl_fd.c\
-	srcs/utils/libft/ft_putnbr_fd.c\
-	srcs/utils/libft/ft_putstr_fd.c\
-	srcs/utils/libft/ft_split.c\
-	srcs/utils/libft/ft_strchr.c\
-	srcs/utils/libft/ft_strdup.c\
-	srcs/utils/libft/ft_striteri.c\
-	srcs/utils/libft/ft_strjoin.c\
-	srcs/utils/libft/ft_strlcat.c\
-	srcs/utils/libft/ft_strlcpy.c\
-	srcs/utils/libft/ft_strlen.c\
-	srcs/utils/libft/ft_strmapi.c\
-	srcs/utils/libft/ft_strncmp.c\
-	srcs/utils/libft/ft_strnstr.c\
-	srcs/utils/libft/ft_strrchr.c\
-	srcs/utils/libft/ft_strtrim.c\
-	srcs/utils/libft/ft_substr.c\
-	srcs/utils/libft/ft_tolower.c\
-	srcs/utils/libft/ft_toupper.c
+OTHERCLIENT =	srcs/utils/ft_printf/ft_printf00.c\
+		srcs/utils/ft_printf/ft_printf01.c\
+		srcs/utils/ft_printf/ft_printf02.c\
+		srcs/utils/gnl/get_next_line00.c\
+		srcs/utils/gnl/get_next_line01.c\
+		srcs/utils/libft/free_str_tab.c\
+		srcs/utils/libft/free_str.c\
+		srcs/utils/libft/ft_atoi.c\
+		srcs/utils/libft/ft_bzero.c\
+		srcs/utils/libft/ft_calloc.c\
+		srcs/utils/libft/ft_isalnum.c\
+		srcs/utils/libft/ft_isalpha.c\
+		srcs/utils/libft/ft_isascii.c\
+		srcs/utils/libft/ft_isdigit_str.c\
+		srcs/utils/libft/ft_isdigit.c\
+		srcs/utils/libft/ft_isprint.c\
+		srcs/utils/libft/ft_itoa.c\
+		srcs/utils/libft/ft_lstadd_back.c\
+		srcs/utils/libft/ft_lstadd_front.c\
+		srcs/utils/libft/ft_lstclear.c\
+		srcs/utils/libft/ft_lstdelone.c\
+		srcs/utils/libft/ft_lstiter.c\
+		srcs/utils/libft/ft_lstlast.c\
+		srcs/utils/libft/ft_lstmap.c\
+		srcs/utils/libft/ft_lstnew.c\
+		srcs/utils/libft/ft_lstsize.c\
+		srcs/utils/libft/ft_memchr.c\
+		srcs/utils/libft/ft_memcmp.c\
+		srcs/utils/libft/ft_memcpy.c\
+		srcs/utils/libft/ft_memmove.c\
+		srcs/utils/libft/ft_memset.c\
+		srcs/utils/libft/ft_putchar_fd.c\
+		srcs/utils/libft/ft_putendl_fd.c\
+		srcs/utils/libft/ft_putnbr_fd.c\
+		srcs/utils/libft/ft_putstr_fd.c\
+		srcs/utils/libft/ft_split.c\
+		srcs/utils/libft/ft_strchr.c\
+		srcs/utils/libft/ft_strdup.c\
+		srcs/utils/libft/ft_striteri.c\
+		srcs/utils/libft/ft_strjoin.c\
+		srcs/utils/libft/ft_strlcat.c\
+		srcs/utils/libft/ft_strlcpy.c\
+		srcs/utils/libft/ft_strlen.c\
+		srcs/utils/libft/ft_strmapi.c\
+		srcs/utils/libft/ft_strncmp.c\
+		srcs/utils/libft/ft_strnstr.c\
+		srcs/utils/libft/ft_strrchr.c\
+		srcs/utils/libft/ft_strtrim.c\
+		srcs/utils/libft/ft_substr.c\
+		srcs/utils/libft/ft_tolower.c\
+		srcs/utils/libft/ft_toupper.c
 
-SRCSSERVER =	mainserver.c
+SRCSSERVER =	srcs/server/server.c
 
-UTILSSERVER =	
+# UTILSSERVER =	
 
-OTHERSERVER = srcs/utils/ft_printf/ft_printf00.c\
-	srcs/utils/ft_printf/ft_printf01.c\
-	srcs/utils/ft_printf/ft_printf02.c\
-	srcs/utils/gnl/get_next_line00.c\
-	srcs/utils/gnl/get_next_line01.c\
-	srcs/utils/libft/free_str_tab.c\
-	srcs/utils/libft/free_str.c\
-	srcs/utils/libft/ft_atoi.c\
-	srcs/utils/libft/ft_bzero.c\
-	srcs/utils/libft/ft_calloc.c\
-	srcs/utils/libft/ft_isalnum.c\
-	srcs/utils/libft/ft_isalpha.c\
-	srcs/utils/libft/ft_isascii.c\
-	srcs/utils/libft/ft_isdigit_str.c\
-	srcs/utils/libft/ft_isdigit.c\
-	srcs/utils/libft/ft_isprint.c\
-	srcs/utils/libft/ft_itoa.c\
-	srcs/utils/libft/ft_lstadd_back.c\
-	srcs/utils/libft/ft_lstadd_front.c\
-	srcs/utils/libft/ft_lstclear.c\
-	srcs/utils/libft/ft_lstdelone.c\
-	srcs/utils/libft/ft_lstiter.c\
-	srcs/utils/libft/ft_lstlast.c\
-	srcs/utils/libft/ft_lstmap.c\
-	srcs/utils/libft/ft_lstnew.c\
-	srcs/utils/libft/ft_lstsize.c\
-	srcs/utils/libft/ft_memchr.c\
-	srcs/utils/libft/ft_memcmp.c\
-	srcs/utils/libft/ft_memcpy.c\
-	srcs/utils/libft/ft_memmove.c\
-	srcs/utils/libft/ft_memset.c\
-	srcs/utils/libft/ft_putchar_fd.c\
-	srcs/utils/libft/ft_putendl_fd.c\
-	srcs/utils/libft/ft_putnbr_fd.c\
-	srcs/utils/libft/ft_putstr_fd.c\
-	srcs/utils/libft/ft_split.c\
-	srcs/utils/libft/ft_strchr.c\
-	srcs/utils/libft/ft_strdup.c\
-	srcs/utils/libft/ft_striteri.c\
-	srcs/utils/libft/ft_strjoin.c\
-	srcs/utils/libft/ft_strlcat.c\
-	srcs/utils/libft/ft_strlcpy.c\
-	srcs/utils/libft/ft_strlen.c\
-	srcs/utils/libft/ft_strmapi.c\
-	srcs/utils/libft/ft_strncmp.c\
-	srcs/utils/libft/ft_strnstr.c\
-	srcs/utils/libft/ft_strrchr.c\
-	srcs/utils/libft/ft_strtrim.c\
-	srcs/utils/libft/ft_substr.c\
-	srcs/utils/libft/ft_tolower.c\
-	srcs/utils/libft/ft_toupper.c
+OTHERSERVER =	srcs/utils/ft_printf/ft_printf00.c\
+		srcs/utils/ft_printf/ft_printf01.c\
+		srcs/utils/ft_printf/ft_printf02.c\
+		srcs/utils/gnl/get_next_line00.c\
+		srcs/utils/gnl/get_next_line01.c\
+		srcs/utils/libft/free_str_tab.c\
+		srcs/utils/libft/free_str.c\
+		srcs/utils/libft/ft_atoi.c\
+		srcs/utils/libft/ft_bzero.c\
+		srcs/utils/libft/ft_calloc.c\
+		srcs/utils/libft/ft_isalnum.c\
+		srcs/utils/libft/ft_isalpha.c\
+		srcs/utils/libft/ft_isascii.c\
+		srcs/utils/libft/ft_isdigit_str.c\
+		srcs/utils/libft/ft_isdigit.c\
+		srcs/utils/libft/ft_isprint.c\
+		srcs/utils/libft/ft_itoa.c\
+		srcs/utils/libft/ft_lstadd_back.c\
+		srcs/utils/libft/ft_lstadd_front.c\
+		srcs/utils/libft/ft_lstclear.c\
+		srcs/utils/libft/ft_lstdelone.c\
+		srcs/utils/libft/ft_lstiter.c\
+		srcs/utils/libft/ft_lstlast.c\
+		srcs/utils/libft/ft_lstmap.c\
+		srcs/utils/libft/ft_lstnew.c\
+		srcs/utils/libft/ft_lstsize.c\
+		srcs/utils/libft/ft_memchr.c\
+		srcs/utils/libft/ft_memcmp.c\
+		srcs/utils/libft/ft_memcpy.c\
+		srcs/utils/libft/ft_memmove.c\
+		srcs/utils/libft/ft_memset.c\
+		srcs/utils/libft/ft_putchar_fd.c\
+		srcs/utils/libft/ft_putendl_fd.c\
+		srcs/utils/libft/ft_putnbr_fd.c\
+		srcs/utils/libft/ft_putstr_fd.c\
+		srcs/utils/libft/ft_split.c\
+		srcs/utils/libft/ft_strchr.c\
+		srcs/utils/libft/ft_strdup.c\
+		srcs/utils/libft/ft_striteri.c\
+		srcs/utils/libft/ft_strjoin.c\
+		srcs/utils/libft/ft_strlcat.c\
+		srcs/utils/libft/ft_strlcpy.c\
+		srcs/utils/libft/ft_strlen.c\
+		srcs/utils/libft/ft_strmapi.c\
+		srcs/utils/libft/ft_strncmp.c\
+		srcs/utils/libft/ft_strnstr.c\
+		srcs/utils/libft/ft_strrchr.c\
+		srcs/utils/libft/ft_strtrim.c\
+		srcs/utils/libft/ft_substr.c\
+		srcs/utils/libft/ft_tolower.c\
+		srcs/utils/libft/ft_toupper.c
 
 # Fichiers objets
 OBJSCLIENT = $(SRCSCLIENT:.c=.o) $(UTILSCLIENT:.c=.o) $(OTHERCLIENT:.c=.o)
