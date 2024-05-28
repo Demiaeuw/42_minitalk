@@ -6,7 +6,7 @@
 /*   By: acabarba <acabarba@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/21 13:41:56 by acabarba          #+#    #+#             */
-/*   Updated: 2024/05/21 15:13:13 by acabarba         ###   ########.fr       */
+/*   Updated: 2024/05/28 17:11:33 by acabarba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,10 @@ static void	ft_charsend(char c)
 
 void	ft_signalhandler(int signal, siginfo_t *sinfo, void *context)
 {
-	static int	c;
-	static int	bit;
+	static int		c;
+	static int		bit;
 	static pid_t	client_pid;
-	
+
 	(void)context;
 	if (!c || client_pid != sinfo->si_pid)
 	{
@@ -66,7 +66,7 @@ void	ft_signalhandler(int signal, siginfo_t *sinfo, void *context)
 
 int	main(void)
 {
-	int	pid;
+	int					pid;
 	struct sigaction	signal;
 
 	pid = getpid();
